@@ -1,0 +1,16 @@
+[
+  { "time": 0.8, "lane": 1 },
+  { "time": 1.2, "lane": 3 },
+  { "time": 1.8, "lane": 2 },
+  { "time": 2.3, "lane": 4 },
+  { "time": 2.8, "lane": 1 },
+  { "time": 3.2, "lane": 2 },
+  { "time": 3.8, "lane": 4 },
+  { "time": 4.4, "lane": 3 },
+  { "time": 5.0, "lane": 1 },
+  { "time": 5.6, "lane": 4 },
+  { "time": 6.1, "lane": 2 },
+  { "time": 6.8, "lane": 3 },
+  { "time": 7.4, "lane": 1 },
+  { "time": 8.0, "lane": 4 }
+]
