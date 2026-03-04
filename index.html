@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Cyber Piano Beat</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+</head>
+
+<body>
+
+<div id="menu">
+
+<h1 class="title">CYBER PIANO</h1>
+
+<div class="branding">Made by Sarthak</div>
+
+<button id="playBtn">START</button>
+
+<button id="leaderBtn">LEADERBOARD</button>
+
+</div>
+
+<div id="game">
+
+<div id="score">0</div>
+
+<div id="combo">Combo x0</div>
+
+<div id="lanes">
+
+<div class="lane" data-lane="0"></div>
+<div class="lane" data-lane="1"></div>
+<div class="lane" data-lane="2"></div>
+<div class="lane" data-lane="3"></div>
+
+</div>
+
+<div id="hitLine"></div>
+
+</div>
+
+<div id="leaderboard">
+
+<h2>TOP PLAYERS</h2>
+
+<ul id="leaderList"></ul>
+
+<button onclick="closeLeaderboard()">Back</button>
+
+</div>
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="game.js"></script>
+
+</body>
+  </html>
