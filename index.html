@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Cyber Piano Beat</title>
+<title>Cyber Piano</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -17,12 +17,11 @@
 
 <div id="menu">
 
-<h1 class="title">CYBER PIANO</h1>
+<h1 class="logo">CYBER PIANO</h1>
 
-<div class="branding">Made by Sarthak</div>
+<div class="brand">Made by Sarthak</div>
 
-<button id="playBtn">START</button>
-
+<button id="playBtn">PLAY</button>
 <button id="leaderBtn">LEADERBOARD</button>
 
 </div>
@@ -30,8 +29,6 @@
 <div id="game">
 
 <div id="score">0</div>
-
-<div id="combo">Combo x0</div>
 
 <div id="lanes">
 
@@ -46,19 +43,18 @@
 
 </div>
 
-<div id="leaderboard">
+<div id="gameOver">
 
-<h2>TOP PLAYERS</h2>
+<h2>GAME OVER</h2>
 
-<ul id="leaderList"></ul>
+<p id="finalScore"></p>
 
-<button onclick="closeLeaderboard()">Back</button>
+<button id="replayBtn">REPLAY</button>
+<button id="menuBtn">MAIN MENU</button>
 
 </div>
-
-<audio id="music" src="music.mp3"></audio>
 
 <script src="game.js"></script>
 
 </body>
-  </html>
+</html>
